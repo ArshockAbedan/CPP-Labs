@@ -20,6 +20,7 @@ int main()
     int age;
     int currentYear;
     string result;
+    int Aref;
 
     // Get Applicant's Information
     cout << "Enter Job Applicant's Name: ";
