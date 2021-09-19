@@ -21,19 +21,19 @@ int main()
     int currentYear;
     string result;
 
-    //
+    // Get Applicant's Information
     cout << "Enter Job Applicant's Name: ";
     cin >> name;
     cout << "Enter Job Applicant's Birth Year: ";
     cin >> birthYear;
     cout << "Enter Job Applicant's Hourlt Wage: ";
     cin >> hourlyWage;
-    cout << "********************************" << "\n\n\n";
 
-    // Get Curent Year
+    // Compute Curent Year
     time_t t = time(nullptr);
     tm *const pTInfo = localtime(&t);
     currentYear = 1900 + pTInfo->tm_year;
+    
     // Compute Job Applicant's age
     age = currentYear - birthYear;
 
@@ -41,6 +41,8 @@ int main()
              " years old and requests an hourly wage of $" +
              to_string(hourlyWage);
 
+    // Print the output
+    cout << "********************************" << "\n\n\n";
     cout << result << "\n\n";
     return 0;
 }
