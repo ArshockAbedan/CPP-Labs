@@ -29,7 +29,7 @@ int main()
     cout << "Enter Job Applicant's Hourlt Wage: ";
     cin >> hourlyWage;
 
-    // Compute Curent Year
+    // Compute Current Year
     time_t t = time(nullptr);
     tm *const pTInfo = localtime(&t);
     currentYear = 1900 + pTInfo->tm_year;
