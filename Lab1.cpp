@@ -2,7 +2,7 @@
 // Name        : Lab1.cpp
 // Author      : Aref Abedjooy
 // Version     : 1.0
-// Copyright   : Your copyright notice
+// Copyright   : Copyright (c) 2021, Aref Abedjooy. No Rights Reserved.
 // Description : This is a sample code for Lab-01
 //               in the "CSCI 1060U – Programming Workshop" course 
 //               which was taught at Ontario tech University during Fall 2021 term. 
