@@ -58,8 +58,7 @@ int main()
     return 0;
 }
 
-// The bubble_sort function sorts input array 'grades[]'.
-// using The Bubble sort
+// The bubble_sort function sorts input array 'grades[]' using The Bubble sort.
 // Parameters: grades[]: array of integers, LengthOfArray: Length of grades[]
 // Returns: void, The grades[] is called by reference so it would be sorted in Main function
 void bubble_sort(int grades[], int LengthOfArray)
